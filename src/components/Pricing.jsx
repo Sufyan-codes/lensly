@@ -94,7 +94,7 @@ export default function Pricing() {
                             
                           </ul>
                       <a href="https://space-booking-app.netlify.app">
-                      <button className='w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 rounded-lg'>
+                      <button className='w-full py-3 px-4 bg-purple-600 hover:bg-purple-500 rounded-lg'>
                             View Live Demo
                             </button>
                           </a>
@@ -145,7 +145,7 @@ export default function Pricing() {
                         
                       </ul>
                   <a href="https://chalatix.netlify.app/">
-                  <button className='w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 rounded-lg'>
+                  <button className='w-full py-3 px-4 bg-purple-600 hover:bg-purple-500 rounded-lg'>
                         View Live Demo
                         </button>
                       </a>
@@ -195,7 +195,7 @@ export default function Pricing() {
                         
                       </ul>
                   <a href="https://photolanding.netlify.app/">
-                  <button className='w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 rounded-lg'>
+                  <button className='w-full py-3 px-4 bg-purple-600 hover:bg-purple-500 rounded-lg'>
                         View Live Demo
                         </button>
                       </a>

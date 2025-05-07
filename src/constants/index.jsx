@@ -243,7 +243,7 @@ export const FOOTER_CONTENT = {
         { text: "Twitter", url: "https://twitter.com/SufyanDev" },
         { text: "Instagram", url: "https://www.instagram.com/sufyan_dev" },
         { text: "Github", url: "https://github.com/Sufyan-codes" },
-        { text: "Email", url: "yusufabusufyan7@gmail.com" },
+        { text: "yusufabusufyan7@gmail.com", url: "" },
         
       ],
     },
