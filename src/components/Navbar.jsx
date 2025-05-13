@@ -1,6 +1,6 @@
 import {useState} from 'react'
-import logo from "../assets/logo.png"
 import { Ri24HoursFill, RiCloseLine, RiMenu3Fill } from '@remixicon/react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -10,33 +10,18 @@ export default function Navbar() {
 }
     
     return (
-        <nav className="fixed py-4 left-0 right-0 z-50 m2 bg-black/60 backdrop-blur-md  border-b border-neutral-900">
+        <nav className="fixed py-4 left-0 right-0 z-50 m2  bg-white ">
             <div className="text-neutral-500 
-            max-w-7xl mx-auto px-4 py-3 flex justify-between items-center
+            max-w-6xl mx-auto px-4 py-3 flex justify-between items-center
             rounded-xl ">
                 {/* Left Logo */}
-                <a href="#"><h1 className='text-white font-semibold text-xl'>Sufyan.dev</h1></a>
+                <Link to='/'><h1 className='text-neutral-800 text-2xl kanit-light font-bold'>Lensly</h1></Link>
 
-                {/* center Links */}
-                <div className="hidden md:flex space-x-6">
-                    <a href="#home" className="hover:text-neutral-200">
-                        Home
-                    </a>
-                    <a href="#about" className="hover:text-neutral-200">
-                        About Me
-                    </a>
-                    <a href="#projects" className="hover:text-neutral-200">
-                        Projects
-                    </a>
-                    <a href="#contact" className="hover:text-neutral-200">
-                        Contact Me
-                    </a>
-                </div>
 
             
                 {/* hamburger */}
-                <div className="md:hidden">
-                    <button onClick={toggleMenu} className='text-white focus:outline-none'
+                <div className="">
+                    <button onClick={toggleMenu} className='text-neutral-800 text-2xl font-bold focus:outline-none'
                         aria-label={isOpen ? "Open Menu" : "Close Menu"}>
                     {isOpen ? <RiCloseLine /> : <RiMenu3Fill />}
                     </button>
@@ -47,21 +32,24 @@ export default function Navbar() {
             {/* nav menu */}
             {isOpen && 
                 (
-                <div className="md:hidden bg-neutral-900/60 backdrop-blur-md border
-                border-neutral-800 p-4 rounded-xl mt-2">
-                    <div className='flex flex-col space-y-4'>
-                        <a href="#" className='hover:text-neutral-200'>
-                            Product
-                        </a>
-                        <a href="#" className='hover:text-neutral-200'>
-                            Pricing
-                        </a>
-                        <a href="#" className='hover:text-neutral-200'>
-                            Resources
-                        </a>
-                        <a href="#" className='hover:text-white'>
-                            Login
-                        </a>
+                <div className=" max-w-6xl  backdrop-blur-md text-right
+                 p-4  mt-2">
+                    <div className='flex flex-col space-y-4  gap-5'>
+                        <Link to='/' className='hover:text-black-900 under text-neutral-800'>
+                            Home
+                        </Link>
+                        <Link to='/gallery' className='hover:text-black-800 text-neutral-800'>
+                            Gallery
+                        </Link>
+                        <Link to="/about" className='hover:text-black-800 text-neutral-800'>
+                            About Us
+                        </Link>
+                        <Link to="/team" className='hover:text-black-800 text-neutral-800'>
+                            Our Team
+                        </Link>
+                        <Link to="/contact" className='hover:text-black-800 text-neutral-800'>
+                            Contact
+                        </Link>
                    
                     </div>
                 </div>

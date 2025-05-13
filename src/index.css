@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root{
-  background: #000000;
+  background: #ffffff;
 }
 
 html {
@@ -11,15 +11,21 @@ html {
 }
 
 body {
-  
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
-
 .kanit-thin {
   font-family: "Kanit", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
 
+.number {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-style: italic;
+}
 .kanit-extralight {
   font-family: "Kanit", sans-serif;
   font-weight: 200;

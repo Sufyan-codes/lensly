@@ -1,40 +1,38 @@
-import React from 'react'
-import {FOOTER_CONTENT} from '../constants'
+import React from 'react';
 
 export default function Footer() {
   return (
-      <section
-      id='contact'
-          className='mt-20 text-neutral-400'>
-          <div className='max-w-7xl mx-auto px-4 border-t border-neutral-800'>
-              <div className='grid grid-cols-1 md:grid-cols-3 gap-8  mt-20'>
-                  {FOOTER_CONTENT.sections.map((section, index) => (
-                      <div key={index}>
-                          <h3 className='text-white font-medium mb-4'>{section.title}</h3>
-                          <ul className='space-y-2'>
-                              {section.links.map((link, index) => (
-                                  <li key={index}>
-                                      <a href={link.url}>{link.text}</a>
-                                  </li>
-                              ))}
-                          </ul>
-                      </div>
-                  ))}
-              </div>
-
-              <div className='my-12  pt-8 text-center text-sm text-neutral-500'>
-                  <div className='flex justify-between'>
-                      <div className='text-xs '>
-                          <p>{FOOTER_CONTENT.platformsText}</p>
-                      </div>
-                      <div className='text-xs'>
-                          <p>{FOOTER_CONTENT.copyrightText}</p>
-                      </div>
-                      
-                  </div>
-              </div>
-          </div>
-          
-</section>
-  )
+    <footer className="bg-black text-white px-6 pb-12">
+      <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
+        <div>
+          <h4 className="font-semibold mb-2">Details</h4>
+          <ul>
+            <li>Instagram</li>
+            <li>Newsletter</li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-semibold mb-2">Gallery</h4>
+          <ul>
+            <li>All</li>
+            <li>Wild</li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-semibold mb-2">Studio</h4>
+          <ul>
+            <li>About</li>
+            <li>Team</li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-semibold mb-2">Others</h4>
+          <ul>
+            <li>Contact</li>
+            <li>Policy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  );
 }
