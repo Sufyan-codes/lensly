@@ -117,7 +117,7 @@ export default function ExemplaryProjects() {
        {filteredProjects.map((project, index) => (
     <SwiperSlide key={index}>
       <div className="group overflow-hidden rounded-md shadow hover:shadow-xl transition">
-        <img src={project.image} alt={project.title} className="w-full h-80 object-cover" />
+        <img src={project.image} alt={project.title}  loading="lazy" className="w-full h-80 object-cover" />
         <div className="flex justify-between items-center mt-2 px-1">
           <h4 className="text-lg font-medium text-neutral-800">{project.title}</h4>
           <span className="text-xs px-3 py-1 rounded-full border border-gray-400 text-gray-500">

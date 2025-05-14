@@ -23,6 +23,7 @@ const GallerySection = () => {
           <img
             src={img3}
             alt="Main"
+            loading="lazy"
             className="w-[785px]  object-cover rounded-md shadow-sm"
           />
         </div>
@@ -42,11 +43,13 @@ const GallerySection = () => {
             <img
               src={img1}
               alt="Gallery 1"
+              loading="lazy"
               className="w-full object-cover rounded-md shadow-sm"
             />
             <img
               src={img2}
               alt="Gallery 2"
+              loading="lazy"
               className="w-full object-cover rounded-md shadow-sm"
             />
           </div>

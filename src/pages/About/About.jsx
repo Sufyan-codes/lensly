@@ -61,6 +61,7 @@ export default function About() {
           <div className="flex flex-col">
             <img
               src={img1}
+              loading="lazy"
               alt="Gallery 1"
               className="lg:w-[250px] object-cover  shadow-sm"
             />
@@ -70,6 +71,7 @@ export default function About() {
         <div className="flex-1">
           <img
             src={img3}
+            loading="lazy"
             alt="Main"
             className="w-[785px] h-[450px]  object-cover  shadow-sm"
           />
@@ -117,11 +119,13 @@ export default function About() {
           <div className="flex flex-col lg:flex-row  gap-4">
             <img
               src={img4}
+              loading="lazy"
               alt="Gallery 1"
               className="lg:w-[250px] lg:h-[350px] object-cover shadow-sm"
             />
             <img
               src={img11}
+              loading="lazy"
               alt="Gallery 2"
               className="lg:w-[250px] lg:h-[350px] object-cover  shadow-sm"
             />
@@ -144,29 +148,34 @@ export default function About() {
       <div className="max-w-7xl m-auto mt-28">
         <div className="flex px-4 flex-col lg:flex-row gap-4">
         <img
-              src={img8}
+            src={img8}
+            loading="lazy"
               alt="Gallery 1"
               className="lg:w-[350px] lg:h-[350px] object-cover shadow-sm"
           />
           <img
-              src={img9}
+            src={img9}
+            loading="lazy"
               alt="Gallery 1"
               className="lg:w-[550px] lg:h-[350px] object-cover shadow-sm"
           />
           <img
-              src={img10}
+            src={img10}
+            loading="lazy"
               alt="Gallery 1"
               className="lg:w-[350px] lg:h-[350px] object-cover shadow-sm"
             />
         </div>
         <div className="flex px-4 flex-col lg:flex-row gap-4 mt-4">
         <img
-              src={gal1}
+            src={gal1}
+            loading="lazy"
               alt="Gallery 1"
               className="lg:w-[50%] lg:h-[350px] object-cover shadow-sm"
           />
           <img
-              src={img12}
+            src={img12}
+            loading="lazy"
               alt="Gallery 1"
               className="lg:w-[50%] lg:h-[350px] object-cover shadow-sm"
           />

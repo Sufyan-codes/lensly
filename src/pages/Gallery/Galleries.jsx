@@ -121,6 +121,7 @@ export const categories = [
                 <img
                   src={item.image}
                   alt={item.title}
+                  loading="lazy"
                   className="rounded-md object-cover w-full h-72"
                 />
                 <div className="flex justify-between items-center mt-2">

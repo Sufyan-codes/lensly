@@ -98,6 +98,7 @@ export default function Gallery() {
                 <img
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   className="w-[700px] h-[300px] object-cover"
                 />
                 
@@ -123,8 +124,8 @@ export default function Gallery() {
         variants={fadeInUp}
         className=" grid grid-cols-1 md:grid-cols-2 gap-1 mx-4 mt-4"
       >
-        <img className="w-full h-[400px]" src={img4} alt="" />
-        <img className="w-full h-[400px]" src={img5} alt="" />
+        <img className="w-full h-[400px]" src={img4} alt=""  loading="lazy" />
+        <img className="w-full h-[400px]" src={img5} alt=""  loading="lazy" />
       </motion.div>
 
       <motion.div
@@ -137,9 +138,9 @@ export default function Gallery() {
           perspective on photography.</h1>
           <motion.div
       variants={fadeInUp}  className=' grid grid-cols-1 md:grid-cols-3 gap-1 mx-4 mt-8'>
-        <img className='' src={img1} width={400} height={300} alt="" />
-        <img className='' src={img2} width={400} height={300} alt="" />
-        <img className='' src={img3} width={400} height={300} alt="" />
+        <img className='' src={img1} width={400} height={300} alt=""  loading="lazy" />
+        <img className='' src={img2} width={400} height={300} alt=""  loading="lazy" />
+        <img className='' src={img3} width={400} height={300} alt=""  loading="lazy" />
       </motion.div>
       </motion.div>
 

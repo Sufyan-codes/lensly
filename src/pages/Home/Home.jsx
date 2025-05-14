@@ -41,9 +41,9 @@ export default function Home() {
       </div>
       <motion.div
       variants={fadeInUp}  className=' grid grid-cols-1 md:grid-cols-3 gap-1 mx-4 mt-4'>
-        <img className='' src={img1} width={400} height={200} alt="" />
-        <img className='' src={img2} width={400} height={400} alt="" />
-        <img className='' src={img3} width={400} height={400} alt="" />
+        <img className='' src={img1} width={400} height={200} alt=""  loading="lazy" />
+        <img className='' src={img2} width={400} height={400} alt=""  loading="lazy" />
+        <img className='' src={img3} width={400} height={400} alt=""  loading="lazy" />
       </motion.div>
 
       
