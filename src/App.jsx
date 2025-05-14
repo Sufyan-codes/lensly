@@ -1,20 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Navbar from "./components/Navbar";
-import YearsOfSuccess from "./pages/Home/YearsOfSuccess";
-import Projects from "./pages/Home/Projects";
-import Categories from "./pages/Home/Categories";
-import Footer from "./components/Footer";
-import NewsletterSection from "./pages/Home/NewsletterSection";
-import InstagramSection from "./pages/Home/InstagramSection";
-import GallerySection from "./pages/Home/GallerySection";
 import Layout from "./components/Layout";
-import HomeLayout from "./pages/Home/HomeLayout";
-import Team from "./pages/Team/Team";
+import HomeLayout from "./components/HomeLayout";
 import TeamLayout from "./components/TeamLayout";
-import Contact from "./pages/Contact/Contact";
 import ContactLayout from "./components/ContactLayout";
 import AboutLayout from "./components/AboutLayout";
+import GalleryLayout from "./components/GalleryLayout";
 
 export default function App() {
   return (
@@ -26,6 +16,7 @@ export default function App() {
             <Route path="/team" element={<TeamLayout />} />
             <Route path="/contact" element={<ContactLayout />} />
             <Route path="/about" element={<AboutLayout />} />
+            <Route path="/gallery" element={<GalleryLayout />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "./assets/img1.png"
-import img2 from "./assets/osman-rana-dI9KhXi0ooE-unsplash.jpg"
-import img3 from "./assets/augustine-wong-V2LvMWtMkLA-unsplash.jpg"
+import img1 from "../../../public/assets/img1.png"
+import img2 from "../../../public/assets/osman-rana-dI9KhXi0ooE-unsplash.jpg"
+import img3 from "../../../public/assets/augustine-wong-V2LvMWtMkLA-unsplash.jpg"
 
 import {motion} from 'framer-motion'
 

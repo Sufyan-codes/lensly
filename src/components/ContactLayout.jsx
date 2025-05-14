@@ -1,15 +1,14 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Contact from '../pages/Contact/Contact'
-import InstagramSection from '../pages/Home/InstagramSection'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Contact from "../pages/Contact/Contact";
+
 
 export default function ContactLayout() {
   return (
-      <div>
-          <Contact />
+    <div>
+      <Contact />
 
-          <Outlet />
-          <InstagramSection />
+      <Outlet />
     </div>
-  )
+  );
 }

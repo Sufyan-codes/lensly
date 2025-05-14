@@ -1,8 +1,8 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Team from '../pages/Team/Team'
-import YearsOfSuccess from '../pages/Home/YearsOfSuccess'
-import InstagramSection from '../pages/Home/InstagramSection'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Team from "../pages/Team/Team";
+import YearsOfSuccess from "../pages/Home/YearsOfSuccess";
+
 
 export default function TeamLayout() {
   return (
@@ -10,7 +10,6 @@ export default function TeamLayout() {
       <Team />
       <Outlet />
       <YearsOfSuccess />
-      <InstagramSection />
     </div>
-  )
+  );
 }

@@ -1,8 +1,9 @@
 import React from 'react';
-import img1 from "./assets/paulius-dragunas-Nhs0sLAn1Is-unsplash.jpg"
-import img2 from "./assets/lia-maaskant-RV8SNyLhQ6Q-unsplash.jpg"
-import img3 from "./assets/erik-mclean-h160c_nYiyw-unsplash.jpg"
-import img4 from "./assets/robin-schreiner-7y4858E8PfA-unsplash.jpg"
+import { Link } from 'react-router-dom';
+import img1 from "../../../public/assets/paulius-dragunas-Nhs0sLAn1Is-unsplash.jpg"
+import img2 from "../../../public/assets/lia-maaskant-RV8SNyLhQ6Q-unsplash.jpg"
+import img3 from "../../../public/assets/erik-mclean-h160c_nYiyw-unsplash.jpg"
+import img4 from "../../../public/assets/robin-schreiner-7y4858E8PfA-unsplash.jpg"
 
 const GallerySection = () => {
   return (
@@ -30,9 +31,9 @@ const GallerySection = () => {
         <div className="flex flex-col gap-6 lg:w-1/3">
           {/* Full Gallery Heading */}
           <div>
-            <h2 className="text-sm font-semibold uppercase tracking-wider mb-2">
+            <Link to='/gallery' className="text-sm font-semibold uppercase tracking-wider mb-2">
               Full Gallery
-            </h2>
+            </Link>
             <div className="w-10 h-1 bg-red-600"></div>
           </div>
 

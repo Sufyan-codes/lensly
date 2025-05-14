@@ -36,12 +36,19 @@ export default function Contact() {
       </div>
       <motion.div
         variants={fadeInUp}
-        className="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-3 gap-2 mt-4"
+        className="max-w-6xl m-auto bg-black lg:p-28 p-10 mt-4"
       >
       
-        <form action="">
-          
-        </form>
+        
+        <div className=' grid grid-cols-1 md:grid-cols-2 lg:gap-20 gap-4'>
+        <input className='bg-black border-b text-white py-4' type="text" placeholder='ALISON BURGERS' />
+          <input type="email" placeholder='EMAIL ADDRESS'  className='bg-black py-4  border-b' />
+          <input type="number" placeholder='PHONE NUMBER'  className='bg-black py-4 border-b' />
+          <input type="text" placeholder='SUBJECT'  className='bg-black py-4 border-b' />
+         </div>
+        <input className='bg-black border-b mt-2 py-20 w-full' type="text" placeholder='MESSAGE' />
+        <button className='mt-14 font-semibold text-white kanit-extralight border-b-2 border-red-500 text-neutral-800 lg:text-xl'>SEND MESSAGE</button>
+      
     
       </motion.div>
     </motion.section>

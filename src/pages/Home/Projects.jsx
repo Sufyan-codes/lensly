@@ -1,38 +1,76 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import img1 from "./assets/img1.png"
-import img2 from "./assets/osman-rana-dI9KhXi0ooE-unsplash.jpg"
-import img3 from "./assets/augustine-wong-V2LvMWtMkLA-unsplash.jpg"
-import img4 from "./assets/robin-schreiner-7y4858E8PfA-unsplash.jpg"
+import img1 from "../../../public/assets/img1.png"
+import img2 from "../../../public/assets/osman-rana-dI9KhXi0ooE-unsplash.jpg"
+import img3 from "../../../public/assets/augustine-wong-V2LvMWtMkLA-unsplash.jpg"
+import img4 from "../../../public/assets/1.jpeg"
+import img5 from "../../../public/assets/2.jpeg"
+import img6 from "../../../public/assets/3.jpeg"
+import img7 from "../../../public/assets/4.jpeg"
+import img8 from "../../../public/assets/hert-niks-tyI1b2abVKE-unsplash.jpg"
+import img9 from "../../../public/assets/153309-4-821edc1864f62bd20af9c33814176c71-720x540.jpg.webp"
+import img10 from "../../../public/assets/nathalie-ehrnleitner-SApQiu5GIdQ-unsplash.jpg"
+import img11 from "../../../public/assets/gourmet-lenz-punldnEiUtc-unsplash.jpg"
+
 
 const projects = [
   {
-    title: 'Architecture',
+    title: 'Nature',
     category: 'Nature',
-    image: img1,
+    image: img8,
   },
   {
     title: 'Nature',
     category: 'Nature',
-    image: img2,
+    image: img9,
   },
   {
     title: 'Interior',
-    category: 'Editorial',
+    category: 'Interior',
     image: img4,
   },
   {
     title: 'Product',
-    category: 'Product',
+    category: 'Product', 
     image: img3,
+  },
+  {
+    title: 'Beauty Product',
+    category: 'Beauty Product', 
+    image: img4,
+  },
+  {
+    title: 'Beauty Product',
+    category: 'Beauty Product', 
+    image: img5,
+  },
+  {
+    title: 'Beauty Product',
+    category: 'Beauty Product', 
+    image: img6,
+  },
+  {
+    title: 'Beauty Product',
+    category: 'Beauty Product', 
+    image: img7,
+  },
+  {
+    title: 'Wild-life',
+    category: 'Wild-life', 
+    image: img10,
+  },
+  {
+    title: 'Product',
+    category: 'Product', 
+    image: img11,
   },
 ];
 
-const categories = ['Nature', 'Editorial', 'Beauty Product', 'Wild-life', 'Product'];
+const categories = ['Beauty Product', 'Interior', 'Nature', 'Wild-life', 'Product'];
 
 export default function ExemplaryProjects() {
-  const [selectedCategory, setSelectedCategory] = useState('Editorial');
+  const [selectedCategory, setSelectedCategory] = useState('Beauty Product');
 
   const filteredProjects = projects.filter(
     (p) => selectedCategory === '' || p.category === selectedCategory

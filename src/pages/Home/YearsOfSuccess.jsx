@@ -1,12 +1,12 @@
 import React from 'react';
-import img4 from "./assets/oleksandr-brovko-kgPd7CMis_E-unsplash.jpg";
-import img5 from "./assets/skyler-ewing-EFSNRCayX8w-unsplash.jpg";
-import img6 from "./assets/erik-mclean-h160c_nYiyw-unsplash.jpg";
-import img7 from "./assets/light house.png";
+import img4 from "../../../public/assets/oleksandr-brovko-kgPd7CMis_E-unsplash.jpg";
+import img5 from "../../../public/assets/skyler-ewing-EFSNRCayX8w-unsplash.jpg";
+import img6 from "../../../public/assets/erik-mclean-h160c_nYiyw-unsplash.jpg";
+import img7 from "../../../public/assets/light house.png";
 
 export default function YearsOfSuccess() {
   return (
-    <section className="mt-28 mx-auto h-screen px-4">
+    <section className="mt-28 mx-auto lg:h-screen h-72 px-4">
       <h2 className="text-neutral-800 kanit-light text-center font-bold lg:text-2xl text-xl">
         35 YEARS OF SUCCESS: CREATIVITY MEETS PHOTOGRAPHY
       </h2>
@@ -14,7 +14,7 @@ export default function YearsOfSuccess() {
       <div className="relative w-full h-full flex items-center justify-center  bg-white overflow-hidden">
 
         {/* Centered Large Number */}
-        <h1 className="text-[8rem] number lg:mt-[-12rem] sm:text-[12rem] md:text-[16rem] lg:text-[20rem] font-extrabold text-neutral-800 lg:z-10 text-center">
+        <h1 className="text-[13rem] z-[100] number lg:mt-[-12rem] sm:text-[12rem] md:text-[16rem] lg:text-[20rem] font-extrabold text-neutral-800 lg:z-10 text-center">
           35
               </h1>
        

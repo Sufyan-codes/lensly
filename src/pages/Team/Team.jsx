@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "./assets/user1.jpeg";
-import img2 from "./assets/user2.jpeg";
-import img3 from "./assets/user3.jpeg";
-import img4 from "./assets/user4.jpeg";
-import img5 from "./assets/user5.jpeg";
-import img6 from "./assets/user6.jpeg";
+import img1 from "../../../public/assets/user1.jpeg";
+import img2 from "../../../public/assets/user2.jpeg";
+import img3 from "../../../public/assets/user3.jpeg";
+import img4 from "../../../public/assets/user4.jpeg";
+import img5 from "../../../public/assets/user5.jpeg";
+import img6 from "../../../public/assets/user6.jpeg";
 import { motion } from "framer-motion";
 
 export default function Team() {
@@ -42,7 +42,7 @@ export default function Team() {
       </div>
       <motion.div
         variants={fadeInUp}
-        className="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-3 gap-2 mt-4"
+        className="max-w-6xl m-auto grid grid-cols-1 md:grid-cols-2 px-6 lg:grid-cols-3  gap-2 mt-4"
       >
       
         <div className="relative">
@@ -55,36 +55,36 @@ export default function Team() {
         <div className="relative">
           <img src={img2}  alt="Fox" className="w-[350px] h-[350px] object-cover " />
           <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
-            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">kelly jones</h3>
-            <p className=" text-center font-bold text-black leading-tight mt-2">Photographer</p>
+            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Sameer Ahmad</h3>
+            <p className=" text-center font-bold text-black leading-tight mt-2">Graphic Designer</p>
           </div>
         </div>
         <div className="relative">
           <img src={img3}  alt="Fox" className="w-[350px] h-[350px] object-cover " />
           <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
-            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">kelly jones</h3>
+            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Jessica Burgers</h3>
             <p className=" text-center font-bold text-black leading-tight mt-2">Photographer</p>
           </div>
         </div>
         <div className="relative">
           <img src={img4}  alt="Fox" className="w-[350px] h-[350px] object-cover " />
           <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
-            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">kelly jones</h3>
-            <p className=" text-center font-bold text-black leading-tight mt-2">Photographer</p>
+            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Jane Doe</h3>
+            <p className=" text-center font-bold text-black leading-tight mt-2">HR</p>
           </div>
         </div>
         <div className="relative">
           <img src={img5}  alt="Fox" className="w-[350px] h-[350px] object-cover " />
           <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
-            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">kelly jones</h3>
-            <p className=" text-center font-bold text-black leading-tight mt-2">Photographer</p>
+            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Sofia Cheng</h3>
+            <p className=" text-center font-bold text-black leading-tight mt-2">Vediographer</p>
           </div>
         </div>
         <div className="relative">
           <img src={img6}  alt="Fox" className="w-[350px] h-[350px] object-cover " />
           <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
-            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">kelly jones</h3>
-            <p className=" text-center font-bold text-black leading-tight mt-2">Photographer</p>
+            <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Jon jones</h3>
+            <p className=" text-center font-bold text-black leading-tight mt-2">drone Operator</p>
           </div>
         </div>
       </motion.div>
