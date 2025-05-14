@@ -47,42 +47,42 @@ export default function Team() {
       
         <div className="relative">
           <img src={img1} alt="Fox" className="w-[350px] h-[350px] object-cover"loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-12 px-4 py-4">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-10 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">kelly jones</h3>
             <p className=" text-center font-bold text-black leading-tight mt-2">Photographer</p>
           </div>
         </div>
         <div className="relative">
           <img src={img2}  alt="Fox" className="w-[350px] h-[350px] object-cover "loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-12 px-4 py-4">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-10 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Sameer Ahmad</h3>
             <p className=" text-center font-bold text-black leading-tight mt-2">Graphic Designer</p>
           </div>
         </div>
         <div className="relative">
           <img src={img3}  alt="Fox" className="w-[350px] h-[350px] object-cover "loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-12 px-4 py-4">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-10 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Jessica Burgers</h3>
             <p className=" text-center font-bold text-black leading-tight mt-2">Photographer</p>
           </div>
         </div>
         <div className="relative">
           <img src={img4}  alt="Fox" className="w-[350px] h-[350px] object-cover " loading="lazy"/>
-          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-12 px-4 py-4">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-10 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Jane Doe</h3>
             <p className=" text-center font-bold text-black leading-tight mt-2">HR</p>
           </div>
         </div>
         <div className="relative">
           <img src={img5}  alt="Fox" className="w-[350px] h-[350px] object-cover " loading="lazy"/>
-          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-12 px-4 py-4">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-10 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Sofia Cheng</h3>
             <p className=" text-center font-bold text-black leading-tight mt-2">Vediographer</p>
           </div>
         </div>
         <div className="relative">
           <img src={img6}  alt="Fox" className="w-[350px] h-[350px] object-cover "  loading="lazy"/>
-          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-12 px-4 py-4">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-10 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Jon jones</h3>
             <p className=" text-center font-bold text-black leading-tight mt-2">drone Operator</p>
           </div>
