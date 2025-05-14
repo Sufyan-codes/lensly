@@ -47,42 +47,42 @@ export default function CategoriesSection() {
       
         <div className="relative">
           <img src={img1} alt="Fox" className="w-[350px] h-[350px] object-cover"  loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
+          <div className="absolute bottom-1  bg-white/80 w-[250px] h-[100px] m-auto ml-4 px-4 py-4 ">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Beauty</h3>
            
           </div>
         </div>
         <div className="relative">
           <img src={img2}  alt="Fox" className="w-[350px] h-[350px] object-cover "  loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-4 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Wild life</h3>
             
           </div>
         </div>
         <div className="relative">
           <img src={img3}  alt="Fox" className="w-[350px] h-[350px] object-cover "  loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-4 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Products</h3>
            
           </div>
         </div>
         <div className="relative">
           <img src={img4}  alt="Fox" className="w-[350px] h-[350px] object-cover "  loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-4 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Nature</h3>
         
           </div>
         </div>
         <div className="relative">
           <img src={img5}  alt="Fox" className="w-[350px] h-[350px] object-cover "  loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-4 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Interior</h3>
             
           </div>
         </div>
         <div className="relative">
           <img src={img6}  alt="Fox" className="w-[350px] h-[350px] object-cover "  loading="lazy" />
-          <div className="absolute bottom-1  bg-white/80 w-[350px] h-[100px] px-4 py-2 rounded">
+          <div className="absolute bottom-1  bg-white/80  w-[250px] h-[100px] m-auto ml-4 px-4 py-4">
             <h3 className="lg:text-2xl text-xl text-center font-bold text-black leading-tight mt-4">Food</h3>
      
           </div>

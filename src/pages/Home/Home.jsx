@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "../../../public/assets/img1.png"
-import img2 from "../../../public/assets/osman-rana-dI9KhXi0ooE-unsplash.jpg"
-import img3 from "../../../public/assets/augustine-wong-V2LvMWtMkLA-unsplash.jpg"
+import img1 from "../../../public/assets/1.jpeg"
+import img2 from "../../../public/assets/hert-niks-tyI1b2abVKE-unsplash.jpg"
+import img3 from "../../../public/assets/yoav-aziz-AiHJiRCwB3w-unsplash.jpg"
 
 import {motion} from 'framer-motion'
 
@@ -41,9 +41,9 @@ export default function Home() {
       </div>
       <motion.div
       variants={fadeInUp}  className=' grid grid-cols-1 md:grid-cols-3 gap-1 mx-4 mt-4'>
-        <img className='' src={img1} width={400} height={200} alt=""  loading="lazy" />
-        <img className='' src={img2} width={400} height={400} alt=""  loading="lazy" />
-        <img className='' src={img3} width={400} height={400} alt=""  loading="lazy" />
+        <img className='w-[400px] h-[400px]' src={img1}  alt=""  loading="lazy" />
+        <img className='w-[400px] h-[400px]' src={img2}  alt=""  loading="lazy" />
+        <img className='w-[400px] h-[400px]' src={img3}  alt=""  loading="lazy" />
       </motion.div>
 
       

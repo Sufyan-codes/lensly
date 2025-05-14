@@ -38,7 +38,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-4 flex flex-col items-left">
         <motion.h1
           variants={fadeInUp}
-          className="text-4xl kanit-extralight lg:text-8xl my-4 font-semibold tracking-lighter
+          className="text-4xl kanit-extralight lg:text-7xl my-4 font-semibold tracking-lighter
                  text-neutral-800"
         >
           WITH A LENS IN HAND, <br />
@@ -137,7 +137,7 @@ export default function About() {
         className="max-w-6xl mx-auto px-4 flex flex-col items-left"
       >
         <h1
-          className="text-4xl kanit-extralight lg:text-8xl my-4 mt-28 font-semibold tracking-lighter
+          className="text-4xl kanit-extralight lg:text-7xl my-4 mt-28 font-semibold tracking-lighter
                  text-neutral-800"
         >
           Enter the world through my lens and discover a fresh perspective on
