@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout";
-import HomeLayout from "./components/HomeLayout";
-import TeamLayout from "./components/TeamLayout";
-import ContactLayout from "./components/ContactLayout";
-import AboutLayout from "./components/AboutLayout";
-import GalleryLayout from "./components/GalleryLayout";
+import Layout from "./app/components/Layout";
+import Home from "./app/pages/Home";
+import About from "./app/pages/About";
+import Features from "./app/pages/Features";
+import Login from "./app/pages/Login";
+import CreateAccount from "./app/pages/CreateAccount";
+import PayforeignDashboard from "./app/components/PayforeignDashboard";
+
 
 export default function App() {
   return (
@@ -12,12 +14,14 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<HomeLayout />} />
-            <Route path="/team" element={<TeamLayout />} />
-            <Route path="/contact" element={<ContactLayout />} />
-            <Route path="/about" element={<AboutLayout />} />
-            <Route path="/gallery" element={<GalleryLayout />} />
+            <Route index element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/features" element={<Features />} />
+            
           </Route>
+          <Route path="/dashboard" element={<PayforeignDashboard />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signUp" element={<CreateAccount />} />
         </Routes>
       </BrowserRouter>
     </main>
