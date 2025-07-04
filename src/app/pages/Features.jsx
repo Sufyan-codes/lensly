@@ -3,7 +3,7 @@ import hero from "../../../public/images/undraw_connected-world_anke.svg";
 
 export default function Features() {
   return (
-    <section className="max-w-6xl pt-28 pb-28 mx-auto">
+    <section className="max-w-6xl pt-28 p-4 pb-28 mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 pt-28 gap-4">
         <div className="flex flex-col gap-4">
           <div className="bg-blue-200 w-10 h-10 rounded-md">img</div>

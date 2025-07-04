@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import { Ri24HoursFill, RiCloseLine, RiMenu3Fill } from '@remixicon/react'
+import { RiAlignRight } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
@@ -42,7 +43,7 @@ export default function Navbar() {
                 <div className="md:hidden">
                     <button onClick={toggleMenu} className='text-white focus:outline-none'
                         aria-label={isOpen ? "Open Menu" : "Close Menu"}>
-                    {isOpen ? <RiCloseLine /> : <RiMenu3Fill />}
+                    {isOpen ? <RiCloseLine className='text-gray-900' /> : <RiMenu3Fill className='text-gray-900' />}
                     </button>
                 </div>
 

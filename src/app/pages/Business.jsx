@@ -4,7 +4,7 @@ import hero from "../../../public/images/Online Banking.svg";
 
 export default function Business() {
   return (
-    <section className='max-w-6xl mx-auto'>
+    <section className='max-w-6xl p-4 mx-auto'>
           <div className='items-center'>
               <div className='text-center flex flex-col gap-4'>
               <p className='text-xl text-blue-800'>Business Banking</p>

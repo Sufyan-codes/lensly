@@ -14,8 +14,8 @@ import {
 export default function Login() {
   return (
     <section>
-      <div className='grid grid-cols-1 lg:grid-cols-2 '>
-        <div className='text-white'>
+      <div className='grid grid-cols-1 lg:grid-cols-2  '>
+        <div className='text-white lg:block hidden '>
           <img src={login} alt="" />
         </div>
         <div className='mt-20 items-center px-10 '>

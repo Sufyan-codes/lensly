@@ -3,7 +3,7 @@ import hero from "../../../public/images/undraw_connected-world_anke.svg";
 
 export default function Investment() {
   return (
-    <section className="max-w-6xl mx-auto">
+    <section className="max-w-6xl p-4 mx-auto">
       <div className="grid grid-cols-1 gap-4">
         <div className="flex flex-col gap-2">
           <span className="text-blue-800 text-xl">Safe Investments</span>

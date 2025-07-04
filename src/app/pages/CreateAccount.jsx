@@ -14,8 +14,8 @@ import {
 export default function CreateAccount() {
   return (
     <section>
-      <div className='grid grid-cols grid-cols-2 min-h-screen'>
-        <div className=' text-white'>
+      <div className='grid grid-cols lg:grid-cols-2 min-h-screen  '>
+        <div className=' text-white lg:block hidden '>
           <img src={login} alt="" />
         </div>
         <div className='mt-20 px-10'>
