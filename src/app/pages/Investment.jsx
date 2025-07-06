@@ -11,7 +11,7 @@ export default function Investment() {
           <h1 className="text-xl lg:text-3xl text-gray-800 font-semibold">
             The Better way To Save & Invest
           </h1>
-          <p className="lg:text-xl text-gray-800">
+          <p className="lg:text-xl text-gray-500">
             FinTech helps over million customers achieve their financial goals
             by helping <br /> br them save and invest with ease.
           </p>
@@ -21,22 +21,22 @@ export default function Investment() {
                       <img src={hero} alt="image here" />
                       </div>
                       <div className="flex flex-col gap-4">
-            <p className="lg:text-xl text-gray-800">
+            <p className="lg:text-xl text-gray-500">
               Put that extracash to use without risk at fintech
             </p>
             <ul className="text-gray-800  flex flex-col gap-3">
               <li className="flex gap-4 p-4 border border-neutral-200 rounded-lg">
-                <span className="bg-blue-200 w-10 h-10 rounded-full"><RiCheckFill className="w-6  h-6 mx-auto text-blue-600 mt-2" /> </span>
+                <span className="bg-blue-200 w-10 h-10 rounded-lg"><RiCheckFill className="w-6  h-6 mx-auto text-blue-600 mt-2" /> </span>
                 <div>
-                  <h1 className="font-semibold lg:text-xl">Profit to invest</h1>
-                  <p>Easy to manage with our intuitive dashboard and tools</p>
+                  <h1 className="font-semibold lg:text-xl ">Profit to invest</h1>
+                  <p className="text-gray-500">Easy to manage with our intuitive dashboard and tools</p>
                 </div>
               </li>
               <li className="flex gap-4 p-4 border border-neutral-200 rounded-lg">
-                <span className="bg-blue-200 w-10 h-10 rounded-full"><RiCheckFill className="w-6  h-6 mx-auto text-blue-600 mt-2" /> </span>
+                <span className="bg-blue-200 w-10 h-10 rounded-lg"><RiCheckFill className="w-6  h-6 mx-auto text-blue-600 mt-2" /> </span>
                 <div>
                   <h1 className="font-semibold lg:text-xl">High returns</h1>
-                  <p>Get the best rates on your investments with fintech</p>
+                  <p className="text-gray-500">Get the best rates on your investments with fintech</p>
                 </div>
               </li>
             </ul>

@@ -3,9 +3,10 @@ import React from 'react'
 export default function Footer() {
   return (
     <section className="bg-[#F8FAFF] max-w-7xl mx-auto border-t border-gray-200 lg:py-16 text-gray-700">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-12">
           <div>
-            <img src='' alt="Fintech" className="h-8 w-auto mb-4" />
+          
+          <h1 className='h-8 w-auto text-lg font-semibold mb-4"'>FinTech</h1>
             <p className="text-sm leading-relaxed max-w-xs">
               Your trusted partner for border‑less money transfers and investments.
             </p>
