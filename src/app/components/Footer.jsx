@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <section className="bg-[#F8FAFF] max-w-6xl mx-auto border-t border-gray-200 lg:py-16 text-gray-700">
+    <section className="bg-[#F8FAFF] max-w-7xl mx-auto border-t border-gray-200 lg:py-16 text-gray-700">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <img src='' alt="Fintech" className="h-8 w-auto mb-4" />

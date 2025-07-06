@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <nav className="fixed  left-0 right-0 z-50 m2 backdrop-blur-md border-b border-neutral-200">
             <div className="text-neutral-500  
-            max-w-6xl mx-auto px-4 py-3 pb-5 flex justify-between items-center text-black-900
+            max-w-7xl mx-auto px-4 py-3 pb-5 flex justify-between items-center text-black-900
              ">
                 {/* Left Logo */}
                 <a href='/' className='text-2xl text-blue-900 font-bold'>Fintech</a>

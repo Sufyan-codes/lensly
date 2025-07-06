@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Cta() {
   return (
     <section className="h-72 bg-blue-500">
-      <div className="max-w-6xl mx-auto items-center py-4 grid lg:grid-cols-2 grid-cols-1 p-4 ">
+      <div className="max-w-7xl mx-auto items-center py-4 grid lg:grid-cols-2 grid-cols-1 p-4 ">
         <h1 className="text-xl lg:text-5xl text-white font-semibold mt-20">
           join the 2+ Million customers <br />
           using FinTech

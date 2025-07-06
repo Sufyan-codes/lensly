@@ -4,7 +4,7 @@ import hero from "../../../public/images/Online Banking.svg";
 
 export default function About() {
   return (
-    <section className='max-w-6xl mx-auto'>
+    <section className='max-w-7xl mx-auto'>
        <div className=" px-4 md:flex justify-between pt-4 text-black">
         <div className="flex flex-col gap-4 mt-28">
           <span className="text-blue-700 bg-blue-200 py-2 px-4 w-[250px] text-1xl  rounded-full text-center">

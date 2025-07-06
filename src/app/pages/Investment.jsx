@@ -1,9 +1,10 @@
 import React from "react";
 import hero from "../../../public/images/undraw_connected-world_anke.svg";
+import { RiCheckFill, RiShieldLine } from "react-icons/ri";
 
 export default function Investment() {
   return (
-    <section className="max-w-6xl p-4 mx-auto">
+    <section className="max-w-7xl p-4 mx-auto">
       <div className="grid grid-cols-1 gap-4">
         <div className="flex flex-col gap-2">
           <span className="text-blue-800 text-xl">Safe Investments</span>
@@ -25,14 +26,14 @@ export default function Investment() {
             </p>
             <ul className="text-gray-800  flex flex-col gap-3">
               <li className="flex gap-4 p-4 border border-neutral-200 rounded-lg">
-                <span className="bg-blue-200 w-10 h-10 rounded-md">img</span>
+                <span className="bg-blue-200 w-10 h-10 rounded-full"><RiCheckFill className="w-6  h-6 mx-auto text-blue-600 mt-2" /> </span>
                 <div>
                   <h1 className="font-semibold lg:text-xl">Profit to invest</h1>
                   <p>Easy to manage with our intuitive dashboard and tools</p>
                 </div>
               </li>
               <li className="flex gap-4 p-4 border border-neutral-200 rounded-lg">
-                <span className="bg-blue-200 w-10 h-10 rounded-md">img</span>
+                <span className="bg-blue-200 w-10 h-10 rounded-full"><RiCheckFill className="w-6  h-6 mx-auto text-blue-600 mt-2" /> </span>
                 <div>
                   <h1 className="font-semibold lg:text-xl">High returns</h1>
                   <p>Get the best rates on your investments with fintech</p>
