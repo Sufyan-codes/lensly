@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../../public/images/undraw_connected-world_anke.svg";
+import hero from "../../../public/images/3.webp";
 import { RiNotification4Line } from "@remixicon/react";
 import { RiCheckFill, RiShieldLine } from "react-icons/ri";
 

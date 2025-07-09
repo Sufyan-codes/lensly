@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import hero from "../../../public/images/Online Banking.svg";
+import hero from "../../../public/images/1.webp";
 import {
   RiCheckFill,
   RiSmartphoneLine,

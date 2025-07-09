@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../../public/images/undraw_connected-world_anke.svg";
+import hero from "../../../public/images/2.webp";
 import { RiCheckFill, RiShieldLine } from "react-icons/ri";
 
 export default function Investment() {

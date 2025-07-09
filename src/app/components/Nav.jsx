@@ -13,18 +13,21 @@ export default function Navbar() {
     return (
         <nav className="fixed  left-0 right-0 z-50 m2 bg-white border-b border-neutral-200">
             <div className="text-neutral-500  
-            max-w-7xl mx-auto px-4 py-3 pb-5 flex justify-between items-center text-black-900
+            max-w-7xl mx-auto px-4 py-7 pb-5 flex justify-between items-center text-black-900
              ">
                 {/* Left Logo */}
-                <a href='/' className='text-2xl text-blue-900 font-bold'>Fintech</a>
+                <a href='/' className='text-3xl text-blue-900 font-bold'>Fintech</a>
 
                 {/* Right Links */}
-                <div className="hidden md:flex space-x-6 text-neutral-900 ">
-                    <Link to="/" className="hover:text-neutral-700 py-2 px-4">
+                <div className="hidden md:flex space-x-6 text-neutral-700 font-semibold">
+                    <Link to="/" className=" hover:text-neutral-700 py-2 px-4">
                         Home
                     </Link>
                     <Link to="/about" className="hover:text-neutral-700 py-2 px-4">
                         About Us
+                    </Link>
+                    <Link to="/about" className="hover:text-neutral-700 py-2 px-4">
+                        Features
                     </Link>
                    
                     <Link to="/login" className=" text-black
