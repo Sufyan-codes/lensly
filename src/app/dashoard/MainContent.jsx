@@ -6,7 +6,7 @@ import {  RiAddLargeLine, RiSendPlaneLine , RiArrowRightUpLine, RiArrowRightSLin
 
 export default function MainContent() {
   return (
-    <main className="w-full lg:w-3/4 p-4 sm:p-6">
+    <main className="w-full lg:w-3/4 p-4 sm:p-6 tracking-tighter">
       {/* Balance */}
       <div className="bg-white pb-4 rounded-lg mb-4 lg:mb-5 shadow">
         <div className="bg-blue-700 text-white h-48 lg:h-9/10 p-6 rounded-t-lg pt-7 lg:pt-14  mb-4 gap-4">

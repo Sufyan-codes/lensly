@@ -12,7 +12,7 @@ import { RiArrowRightLine } from "@remixicon/react";
 export default function Business() {
   return (
     <section className="bg-[#F8FAFF]">
-      <main className=" max-w-7xl p-4 mx-auto">
+      <main className=" max-w-7xl p-4 mx-auto tracking-tighter">
         <div className="items-center mt-10">
           <div className="text-center flex flex-col gap-4">
             <p className="text-xl text-blue-800">Business Banking</p>

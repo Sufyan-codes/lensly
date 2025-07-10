@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ExchangeRates() {
   return (
-    <aside className="w-full lg:w-1/3 p-4 lg:pr-6">
+    <aside className="w-full lg:w-1/3 p-4 lg:pr-6 tracking-tighter">
       {/* Exchange Rate Table */}
       <div className="bg-white p-6 rounded shadow mb-6">
         <div className="flex justify-between">

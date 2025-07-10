@@ -6,7 +6,7 @@ import { RiCheckFill, RiShieldLine } from "react-icons/ri";
 export default function Features() {
   return (
     <section className="max-w-7xl pt-28 p-4 pb-28 mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-2 pt-28 gap-4">
+      <div className="grid grid-cols-1 tracking-tighter lg:grid-cols-2 pt-28 gap-4">
         <div className="flex flex-col gap-4">
           <div className="bg-blue-200 w-10 h-10 rounded-md"><RiNotification4Line className="w-6  h-6 mx-auto text-blue-600 mt-2"/></div>
           <h1 className="text-xl lg:text-3xl font-semibold text-blue-800">Real Time Notifications</h1>

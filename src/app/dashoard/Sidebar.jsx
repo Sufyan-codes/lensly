@@ -18,7 +18,7 @@ export default function Sidebar({ isOpen, onClose }) {
       } lg:relative lg:translate-x-0 lg:flex lg:w-1/5`}
     >
       <div>
-        <div className="hidden lg:block mb-10">
+        <div className="hidden lg:block mb-10 tracking-tighter">
           <Link to='/' className="text-2xl font-bold ">FinTech</Link>
         </div>
         <nav className="space-y-4">

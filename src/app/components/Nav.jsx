@@ -16,10 +16,10 @@ export default function Navbar() {
             max-w-7xl mx-auto px-4 py-7 pb-5 flex justify-between items-center text-black-900
              ">
                 {/* Left Logo */}
-                <a href='/' className='text-3xl text-blue-900 font-bold'>Fintech</a>
+                <a href='/' className='text-3xl tracking-tighter text-blue-900 font-bold'>Fintech</a>
 
                 {/* Right Links */}
-                <div className="hidden md:flex space-x-6 text-neutral-700 font-semibold">
+                <div className="hidden md:flex space-x-6 text-neutral-700 tracking-tighter font-semibold">
                     <Link to="/" className=" hover:text-neutral-700 py-2 px-4">
                         Home
                     </Link>

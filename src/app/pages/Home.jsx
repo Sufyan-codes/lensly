@@ -7,7 +7,7 @@ import { RiArrowRightLine } from "@remixicon/react";
 export default function Home() {
   return (
     <section className="bg-[#F8FAFF]">
-      <main className="pt-28 max-w-7xl mx-auto pb-10">
+      <main className="pt-28 max-w-7xl mx-auto tracking-tighter pb-10">
         <div className=" px-4 flex flex-col  mt-4 text-black">
           <div className="mx-auto px-4 flex flex-col items-center
       text-center gap-4 mt-20">
@@ -45,14 +45,14 @@ export default function Home() {
           </div>
 
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center ">
             <img src={hero} width={550} alt="hero image" />
           </div>
         <div>
           {/* Features */}
 
           <div className="px-4 mt-24">
-            <h3 className="text-3xl lg:text-5xl mt-20 tracking-tighter text-neutral-500">Our Features</h3>
+            <h3 className="text-3xl lg:text-3xl mt-20 tracking-tighter text-neutral-700">Our Features</h3>
 
 
             <div className=" grid grid-cols-1 mt-4 md:grid-cols-2 lg:grid-cols-3 gap-3">
